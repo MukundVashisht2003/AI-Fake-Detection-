@@ -7,7 +7,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 app = Flask(__name__)
 
 # path to the SavedModel directory
-model_path = r'C:\Users\mukun\Desktop\BE Project\ai-generated-image-detect-EfficientNetB4\Saved_Model_2'
+model_path = r'C:\Users\mukun\Desktop\BE Project\Deepfake Detection\AI-Fake-Detection-\Saved_Model_2'
 
 # Load the SavedModel using tf.saved_model.load
 model = tf.saved_model.load(model_path)
